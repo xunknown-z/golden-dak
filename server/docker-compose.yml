@@ -6,11 +6,13 @@ services:
       - --ssl=0
       - --sha256-password-auto-generate-rsa-keys=OFF
       - --caching-sha2-password-auto-generate-rsa-keys=OFF
+    env_file:
+      - .env
     environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: golden_dak
-      MYSQL_USER: goldendak
-      MYSQL_PASSWORD: goldendak
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${DB_DATABASE}
+      MYSQL_USER: ${DB_USERNAME}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
     ports:
       - "3306:3306"
     volumes:
