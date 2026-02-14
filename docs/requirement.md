@@ -35,13 +35,15 @@
 ### 5. 구현계획
 - 한 번에 사이트를 완성하지 말고, 단계별 계획을 세워서 만들 것.
     - frontend는 client 디렉터리를 만들어서 할 것.
-    - backend는 server 디렉터리만 만들고 진행 하지 말 것.
-- plan.md에 계획 내용을 작성해서 저장해서 실제 구현 시 사용할 것.
+    - backend는 server 디렉터리를 만들어서 할 것.
+- /docs/plan-backend.md에 계획 내용을 작성해서 저장해서 실제 구현 시 사용할 것.
 
 ### 6. 프레임워크
 - 프레임워크는 Next.js 14/15 (App Router)로 만들 것.
 - 컴포넌트 기능을 최대한 활용할 것.
 - 스타일링은 Tailwind CSS로 사용할 것.
+- server는 nestjs로 만들 것.
+- database는 mysql로 docker를 사용할 것.
 
 ### 7. 언어
 - 답변은 한국어로 할 것.
