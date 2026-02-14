@@ -1,0 +1,7 @@
+[
+  { "id": 1, "image": "/images/banner-1.jpg", "title": "신규가입 3,000원 할인쿠폰", "link": "/" },
+  { "id": 2, "image": "/images/banner-2.jpg", "title": "이번 주 베스트 닭가슴살 모음", "link": "/category" },
+  { "id": 3, "image": "/images/banner-3.jpg", "title": "무료배송 이벤트", "link": "/" },
+  { "id": 4, "image": "/images/banner-4.jpg", "title": "다이어트 식단 추천", "link": "/category" },
+  { "id": 5, "image": "/images/banner-5.jpg", "title": "첫 구매 특별 혜택", "link": "/" }
+]

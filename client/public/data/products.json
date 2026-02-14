@@ -1,0 +1,771 @@
+[
+  {
+    "id": 1,
+    "name": "스팀 닭가슴살 오리지널",
+    "price": 12900,
+    "originalPrice": 18900,
+    "discountRate": 32,
+    "image": "https://cdn.pixabay.com/photo/2018/02/26/17/25/broccoli-3183560_150.jpg",
+    "category": "닭가슴살",
+    "rating": 4.8,
+    "reviewCount": 4523,
+    "tags": [
+      "베스트",
+      "무료배송"
+    ],
+    "description": "부드럽고 촉촉한 스팀 방식으로 조리한 오리지널 닭가슴살입니다. 고단백 저지방으로 다이어트 식단에 최적화되어 있습니다.",
+    "options": [
+      {
+        "id": 1,
+        "name": "100g x 10팩",
+        "price": 12900
+      },
+      {
+        "id": 2,
+        "name": "100g x 20팩",
+        "price": 23800
+      },
+      {
+        "id": 3,
+        "name": "100g x 30팩",
+        "price": 33900
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "훈제 닭가슴살",
+    "price": 13900,
+    "originalPrice": 19900,
+    "discountRate": 30,
+    "image": "https://cdn.pixabay.com/photo/2022/07/25/20/15/grilled-chicken-7344499_150.jpg",
+    "category": "닭가슴살",
+    "rating": 4.7,
+    "reviewCount": 3891,
+    "tags": [
+      "베스트",
+      "무료배송"
+    ],
+    "description": "참나무 칩으로 훈연한 깊은 풍미의 닭가슴살입니다. 그대로 먹어도 맛있고, 샐러드와 곁들여도 좋습니다.",
+    "options": [
+      {
+        "id": 1,
+        "name": "100g x 10팩",
+        "price": 13900
+      },
+      {
+        "id": 2,
+        "name": "100g x 20팩",
+        "price": 25800
+      },
+      {
+        "id": 3,
+        "name": "100g x 30팩",
+        "price": 36900
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "스팀 닭가슴살 블랙페퍼",
+    "price": 13500,
+    "originalPrice": 19000,
+    "discountRate": 29,
+    "image": "https://cdn.pixabay.com/photo/2020/02/02/15/07/meat-4813261_150.jpg",
+    "category": "닭가슴살",
+    "rating": 4.6,
+    "reviewCount": 2187,
+    "tags": [
+      "무료배송"
+    ],
+    "description": "통후추의 알싸한 맛이 가미된 스팀 닭가슴살입니다. 풍부한 향신료가 담백한 닭가슴살과 완벽한 조화를 이룹니다.",
+    "options": [
+      {
+        "id": 1,
+        "name": "100g x 10팩",
+        "price": 13500
+      },
+      {
+        "id": 2,
+        "name": "100g x 20팩",
+        "price": 25000
+      },
+      {
+        "id": 3,
+        "name": "100g x 30팩",
+        "price": 35500
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "저염 닭가슴살 슬라이스",
+    "price": 14500,
+    "originalPrice": 20000,
+    "discountRate": 28,
+    "image": "https://cdn.pixabay.com/photo/2022/11/06/13/29/turkey-breast-7574011_150.jpg",
+    "category": "닭가슴살",
+    "rating": 4.5,
+    "reviewCount": 1456,
+    "tags": [
+      "한정특가"
+    ],
+    "description": "나트륨을 낮춘 건강한 닭가슴살 슬라이스입니다. 얇게 슬라이스하여 다양한 요리에 활용하기 좋습니다.",
+    "options": [
+      {
+        "id": 1,
+        "name": "100g x 10팩",
+        "price": 14500
+      },
+      {
+        "id": 2,
+        "name": "100g x 20팩",
+        "price": 27000
+      },
+      {
+        "id": 3,
+        "name": "100g x 30팩",
+        "price": 38500
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "닭가슴살 소시지 오리지널",
+    "price": 9900,
+    "originalPrice": 14900,
+    "discountRate": 34,
+    "image": "https://cdn.pixabay.com/photo/2017/05/15/11/56/sausage-2314654_150.jpg",
+    "category": "소시지",
+    "rating": 4.7,
+    "reviewCount": 3245,
+    "tags": [
+      "베스트",
+      "무료배송"
+    ],
+    "description": "닭가슴살로 만든 고단백 소시지입니다. 간편하게 먹을 수 있어 식사 대용이나 간식으로 인기 만점입니다.",
+    "options": [
+      {
+        "id": 1,
+        "name": "70g x 10개입",
+        "price": 9900
+      },
+      {
+        "id": 2,
+        "name": "70g x 20개입",
+        "price": 18800
+      },
+      {
+        "id": 3,
+        "name": "70g x 30개입",
+        "price": 26900
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "닭가슴살 소시지 청양고추",
+    "price": 10500,
+    "originalPrice": 15000,
+    "discountRate": 30,
+    "image": "https://cdn.pixabay.com/photo/2012/10/03/12/49/white-sausage-59081_150.jpg",
+    "category": "소시지",
+    "rating": 4.6,
+    "reviewCount": 2876,
+    "tags": [
+      "베스트"
+    ],
+    "description": "청양고추의 매콤한 맛이 더해진 닭가슴살 소시지입니다. 알싸한 매운맛이 입맛을 돋워줍니다.",
+    "options": [
+      {
+        "id": 1,
+        "name": "70g x 10개입",
+        "price": 10500
+      },
+      {
+        "id": 2,
+        "name": "70g x 20개입",
+        "price": 19800
+      },
+      {
+        "id": 3,
+        "name": "70g x 30개입",
+        "price": 28500
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "닭가슴살 소시지 치즈",
+    "price": 10900,
+    "originalPrice": 15500,
+    "discountRate": 30,
+    "image": "https://cdn.pixabay.com/photo/2014/12/04/11/55/sausage-556491_150.jpg",
+    "category": "소시지",
+    "rating": 4.8,
+    "reviewCount": 2543,
+    "tags": [
+      "무료배송",
+      "한정특가"
+    ],
+    "description": "고소한 치즈가 쏙쏙 들어간 닭가슴살 소시지입니다. 아이들 간식으로도 인기가 좋습니다.",
+    "options": [
+      {
+        "id": 1,
+        "name": "70g x 10개입",
+        "price": 10900
+      },
+      {
+        "id": 2,
+        "name": "70g x 20개입",
+        "price": 20800
+      },
+      {
+        "id": 3,
+        "name": "70g x 30개입",
+        "price": 29900
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "닭가슴살 소시지 카레맛",
+    "price": 10500,
+    "originalPrice": 14500,
+    "discountRate": 28,
+    "image": "https://cdn.pixabay.com/photo/2014/12/04/11/53/sausage-556489_150.jpg",
+    "category": "소시지",
+    "rating": 4.4,
+    "reviewCount": 1234,
+    "tags": [],
+    "description": "이국적인 카레 향신료가 가미된 닭가슴살 소시지입니다. 색다른 맛을 원하는 분께 추천드립니다.",
+    "options": [
+      {
+        "id": 1,
+        "name": "70g x 10개입",
+        "price": 10500
+      },
+      {
+        "id": 2,
+        "name": "70g x 20개입",
+        "price": 19500
+      },
+      {
+        "id": 3,
+        "name": "70g x 30개입",
+        "price": 28000
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "닭가슴살 스테이크 갈릭",
+    "price": 15900,
+    "originalPrice": 22000,
+    "discountRate": 28,
+    "image": "https://cdn.pixabay.com/photo/2018/11/16/11/37/steak-3819248_150.jpg",
+    "category": "스테이크",
+    "rating": 4.7,
+    "reviewCount": 2987,
+    "tags": [
+      "베스트",
+      "무료배송"
+    ],
+    "description": "마늘의 풍미가 가득한 두툼한 닭가슴살 스테이크입니다. 팬에 구워 먹으면 더욱 맛있습니다.",
+    "options": [
+      {
+        "id": 1,
+        "name": "130g x 5팩",
+        "price": 15900
+      },
+      {
+        "id": 2,
+        "name": "130g x 10팩",
+        "price": 29800
+      },
+      {
+        "id": 3,
+        "name": "130g x 15팩",
+        "price": 42900
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "닭가슴살 스테이크 데리야끼",
+    "price": 16500,
+    "originalPrice": 23000,
+    "discountRate": 28,
+    "image": "https://cdn.pixabay.com/photo/2015/04/08/13/13/food-712665_150.jpg",
+    "category": "스테이크",
+    "rating": 4.6,
+    "reviewCount": 2134,
+    "tags": [
+      "무료배송"
+    ],
+    "description": "달콤한 데리야끼 소스로 맛을 낸 닭가슴살 스테이크입니다. 밥반찬으로도 훌륭합니다.",
+    "options": [
+      {
+        "id": 1,
+        "name": "130g x 5팩",
+        "price": 16500
+      },
+      {
+        "id": 2,
+        "name": "130g x 10팩",
+        "price": 31000
+      },
+      {
+        "id": 3,
+        "name": "130g x 15팩",
+        "price": 44500
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "닭가슴살 스테이크 매콤불닭",
+    "price": 16900,
+    "originalPrice": 24000,
+    "discountRate": 30,
+    "image": "https://cdn.pixabay.com/photo/2021/09/11/11/18/grilling-6615321_150.jpg",
+    "category": "스테이크",
+    "rating": 4.5,
+    "reviewCount": 1876,
+    "tags": [
+      "한정특가"
+    ],
+    "description": "불닭 소스로 양념한 매콤한 닭가슴살 스테이크입니다. 매운맛을 좋아하는 분께 강력 추천합니다.",
+    "options": [
+      {
+        "id": 1,
+        "name": "130g x 5팩",
+        "price": 16900
+      },
+      {
+        "id": 2,
+        "name": "130g x 10팩",
+        "price": 31800
+      },
+      {
+        "id": 3,
+        "name": "130g x 15팩",
+        "price": 45900
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "닭가슴살 스테이크 허브",
+    "price": 16500,
+    "originalPrice": 22500,
+    "discountRate": 27,
+    "image": "https://cdn.pixabay.com/photo/2017/10/22/20/18/meat-2879136_150.jpg",
+    "category": "스테이크",
+    "rating": 4.4,
+    "reviewCount": 987,
+    "tags": [],
+    "description": "로즈마리와 타임 허브로 향을 낸 닭가슴살 스테이크입니다. 고급스러운 맛을 즐길 수 있습니다.",
+    "options": [
+      {
+        "id": 1,
+        "name": "130g x 5팩",
+        "price": 16500
+      },
+      {
+        "id": 2,
+        "name": "130g x 10팩",
+        "price": 30800
+      },
+      {
+        "id": 3,
+        "name": "130g x 15팩",
+        "price": 43900
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "닭가슴살 볼 매콤",
+    "price": 11900,
+    "originalPrice": 16900,
+    "discountRate": 30,
+    "image": "https://cdn.pixabay.com/photo/2020/07/28/08/44/power-balls-5444395_150.jpg",
+    "category": "볼/큐브",
+    "rating": 4.6,
+    "reviewCount": 2345,
+    "tags": [
+      "베스트",
+      "무료배송"
+    ],
+    "description": "한입 크기로 만든 매콤한 닭가슴살 볼입니다. 간편하게 전자레인지로 데워 먹을 수 있습니다.",
+    "options": [
+      {
+        "id": 1,
+        "name": "100g x 10팩",
+        "price": 11900
+      },
+      {
+        "id": 2,
+        "name": "100g x 20팩",
+        "price": 22800
+      },
+      {
+        "id": 3,
+        "name": "100g x 30팩",
+        "price": 32900
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "닭가슴살 큐브 갈비맛",
+    "price": 12500,
+    "originalPrice": 17500,
+    "discountRate": 29,
+    "image": "https://cdn.pixabay.com/photo/2018/03/09/17/41/chicken-3212144_150.jpg",
+    "category": "볼/큐브",
+    "rating": 4.5,
+    "reviewCount": 1678,
+    "tags": [
+      "무료배송"
+    ],
+    "description": "갈비 양념으로 맛을 낸 한입 크기 닭가슴살 큐브입니다. 도시락 반찬으로 최고입니다.",
+    "options": [
+      {
+        "id": 1,
+        "name": "100g x 10팩",
+        "price": 12500
+      },
+      {
+        "id": 2,
+        "name": "100g x 20팩",
+        "price": 23500
+      },
+      {
+        "id": 3,
+        "name": "100g x 30팩",
+        "price": 33900
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "닭가슴살 볼 고추장맛",
+    "price": 12200,
+    "originalPrice": 17000,
+    "discountRate": 28,
+    "image": "https://cdn.pixabay.com/photo/2017/09/08/19/28/duck-breast-2729838_150.jpg",
+    "category": "볼/큐브",
+    "rating": 4.4,
+    "reviewCount": 1432,
+    "tags": [],
+    "description": "고추장으로 양념한 닭가슴살 볼입니다. 한국식 매콤달콤한 맛이 특징입니다.",
+    "options": [
+      {
+        "id": 1,
+        "name": "100g x 10팩",
+        "price": 12200
+      },
+      {
+        "id": 2,
+        "name": "100g x 20팩",
+        "price": 23000
+      },
+      {
+        "id": 3,
+        "name": "100g x 30팩",
+        "price": 33000
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "닭가슴살 큐브 케이준",
+    "price": 12900,
+    "originalPrice": 18000,
+    "discountRate": 28,
+    "image": "https://cdn.pixabay.com/photo/2016/06/04/18/44/duck-breast-1436039_150.jpg",
+    "category": "볼/큐브",
+    "rating": 4.3,
+    "reviewCount": 876,
+    "tags": [
+      "한정특가"
+    ],
+    "description": "케이준 시즈닝으로 맛을 낸 닭가슴살 큐브입니다. 이국적인 풍미가 매력적입니다.",
+    "options": [
+      {
+        "id": 1,
+        "name": "100g x 10팩",
+        "price": 12900
+      },
+      {
+        "id": 2,
+        "name": "100g x 20팩",
+        "price": 24500
+      },
+      {
+        "id": 3,
+        "name": "100g x 30팩",
+        "price": 34900
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "닭가슴살 프로틴바 초코",
+    "price": 15900,
+    "originalPrice": 22000,
+    "discountRate": 28,
+    "image": "https://cdn.pixabay.com/photo/2017/04/09/12/49/chicken-breast-filet-2215709_150.jpg",
+    "category": "간식/음료",
+    "rating": 4.5,
+    "reviewCount": 3456,
+    "tags": [
+      "베스트",
+      "무료배송"
+    ],
+    "description": "닭가슴살 단백질이 풍부한 초코맛 프로틴바입니다. 운동 후 간편한 단백질 보충에 최적입니다.",
+    "options": [
+      {
+        "id": 1,
+        "name": "40g x 12개입",
+        "price": 15900
+      },
+      {
+        "id": 2,
+        "name": "40g x 24개입",
+        "price": 29800
+      },
+      {
+        "id": 3,
+        "name": "40g x 36개입",
+        "price": 42900
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "닭가슴살 프로틴 쉐이크 바나나",
+    "price": 19900,
+    "originalPrice": 28000,
+    "discountRate": 29,
+    "image": "https://cdn.pixabay.com/photo/2021/08/27/11/46/milkshake-6578503_150.jpg",
+    "category": "간식/음료",
+    "rating": 4.3,
+    "reviewCount": 1234,
+    "tags": [
+      "무료배송"
+    ],
+    "description": "달콤한 바나나맛 프로틴 쉐이크입니다. 닭가슴살 유래 단백질 20g이 함유되어 있습니다.",
+    "options": [
+      {
+        "id": 1,
+        "name": "250ml x 10팩",
+        "price": 19900
+      },
+      {
+        "id": 2,
+        "name": "250ml x 20팩",
+        "price": 37800
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "닭가슴살 육포 오리지널",
+    "price": 8900,
+    "originalPrice": 12000,
+    "discountRate": 26,
+    "image": "https://cdn.pixabay.com/photo/2017/09/28/09/02/food-2794787_150.jpg",
+    "category": "간식/음료",
+    "rating": 4.6,
+    "reviewCount": 2187,
+    "tags": [
+      "베스트"
+    ],
+    "description": "쫄깃한 식감의 닭가슴살 육포입니다. 간식이나 안주로 즐기기 좋습니다.",
+    "options": [
+      {
+        "id": 1,
+        "name": "50g x 5팩",
+        "price": 8900
+      },
+      {
+        "id": 2,
+        "name": "50g x 10팩",
+        "price": 16800
+      },
+      {
+        "id": 3,
+        "name": "50g x 20팩",
+        "price": 31500
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "닭가슴살 칩 와사비",
+    "price": 7500,
+    "originalPrice": 10000,
+    "discountRate": 25,
+    "image": "https://cdn.pixabay.com/photo/2017/08/14/14/56/crisp-2640743_150.jpg",
+    "category": "간식/음료",
+    "rating": 4.2,
+    "reviewCount": 765,
+    "tags": [],
+    "description": "바삭한 식감의 와사비맛 닭가슴살 칩입니다. 고단백 간식으로 죄책감 없이 즐기세요.",
+    "options": [
+      {
+        "id": 1,
+        "name": "30g x 10개입",
+        "price": 7500
+      },
+      {
+        "id": 2,
+        "name": "30g x 20개입",
+        "price": 14000
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "닭가슴살 도시락 현미밥 & 불고기맛",
+    "price": 29900,
+    "originalPrice": 39900,
+    "discountRate": 25,
+    "image": "https://cdn.pixabay.com/photo/2022/02/11/07/03/bento-7006664_150.jpg",
+    "category": "도시락",
+    "rating": 4.7,
+    "reviewCount": 2876,
+    "tags": [
+      "베스트",
+      "무료배송"
+    ],
+    "description": "현미밥과 불고기맛 닭가슴살이 함께 담긴 도시락입니다. 전자레인지 3분이면 완성되는 간편식입니다.",
+    "options": [
+      {
+        "id": 1,
+        "name": "250g x 5팩",
+        "price": 29900
+      },
+      {
+        "id": 2,
+        "name": "250g x 10팩",
+        "price": 56800
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "닭가슴살 도시락 곤약밥 & 데리야끼",
+    "price": 31900,
+    "originalPrice": 42000,
+    "discountRate": 24,
+    "image": "https://cdn.pixabay.com/photo/2021/09/25/18/54/dish-6655595_150.jpg",
+    "category": "도시락",
+    "rating": 4.5,
+    "reviewCount": 1567,
+    "tags": [
+      "무료배송"
+    ],
+    "description": "저칼로리 곤약밥에 데리야끼 소스 닭가슴살을 얹은 도시락입니다. 칼로리 걱정 없는 한 끼 식사입니다.",
+    "options": [
+      {
+        "id": 1,
+        "name": "250g x 5팩",
+        "price": 31900
+      },
+      {
+        "id": 2,
+        "name": "250g x 10팩",
+        "price": 60800
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "닭가슴살 도시락 볶음밥 김치맛",
+    "price": 27900,
+    "originalPrice": 38000,
+    "discountRate": 27,
+    "image": "https://cdn.pixabay.com/photo/2014/01/09/10/14/kimchi-fried-rice-241051_150.jpg",
+    "category": "도시락",
+    "rating": 4.6,
+    "reviewCount": 1987,
+    "tags": [
+      "한정특가"
+    ],
+    "description": "김치 볶음밥에 닭가슴살 큐브가 토핑된 도시락입니다. 매콤한 김치와 담백한 닭가슴살의 환상 조합입니다.",
+    "options": [
+      {
+        "id": 1,
+        "name": "250g x 5팩",
+        "price": 27900
+      },
+      {
+        "id": 2,
+        "name": "250g x 10팩",
+        "price": 52800
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "닭가슴살 도시락 잡곡밥 & 갈릭스테이크",
+    "price": 33900,
+    "originalPrice": 45000,
+    "discountRate": 25,
+    "image": "https://cdn.pixabay.com/photo/2016/04/15/09/05/calamari-1330534_150.jpg",
+    "category": "도시락",
+    "rating": 4.4,
+    "reviewCount": 876,
+    "tags": [],
+    "description": "영양 잡곡밥과 갈릭 스테이크 닭가슴살이 세트인 프리미엄 도시락입니다.",
+    "options": [
+      {
+        "id": 1,
+        "name": "280g x 5팩",
+        "price": 33900
+      },
+      {
+        "id": 2,
+        "name": "280g x 10팩",
+        "price": 64800
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "훈제 닭가슴살 페퍼콘",
+    "price": 14900,
+    "originalPrice": 21000,
+    "discountRate": 29,
+    "image": "https://cdn.pixabay.com/photo/2018/08/29/19/03/steak-3640560_150.jpg",
+    "category": "닭가슴살",
+    "rating": 4.5,
+    "reviewCount": 1543,
+    "tags": [
+      "무료배송",
+      "한정특가"
+    ],
+    "description": "통페퍼콘이 박힌 훈제 닭가슴살입니다. 페퍼콘의 톡 쏘는 맛과 훈연향이 어우러진 프리미엄 제품입니다.",
+    "options": [
+      {
+        "id": 1,
+        "name": "100g x 10팩",
+        "price": 14900
+      },
+      {
+        "id": 2,
+        "name": "100g x 20팩",
+        "price": 27800
+      },
+      {
+        "id": 3,
+        "name": "100g x 30팩",
+        "price": 39900
+      }
+    ]
+  }
+]
