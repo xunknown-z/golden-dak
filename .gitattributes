@@ -1,0 +1,67 @@
+########################################
+# Line endings
+########################################
+
+# 기본: 텍스트 파일은 자동 정규화
+* text=auto eol=lf
+
+# Windows 배치 파일은 CRLF 유지
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+########################################
+# Source code
+########################################
+
+*.js     text
+*.jsx    text
+*.ts     text
+*.tsx    text
+*.json   text
+*.yml    text
+*.yaml   text
+*.md     text
+*.css    text
+*.scss   text
+*.html   text
+
+########################################
+# Shell
+########################################
+
+*.sh text eol=lf
+
+########################################
+# Binary files
+########################################
+
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.ico  binary
+*.pdf  binary
+*.woff binary
+*.woff2 binary
+*.ttf  binary
+*.eot  binary
+*.mp4  binary
+*.mov  binary
+*.zip  binary
+*.gz   binary
+
+########################################
+# Lock files (diff 방지 권장)
+########################################
+
+package-lock.json -diff
+yarn.lock -diff
+pnpm-lock.yaml -diff
+
+########################################
+# Build outputs (혹시 추적될 경우 대비)
+########################################
+
+*.min.js -diff
+*.min.css -diff
