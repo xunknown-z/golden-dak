@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ORD-2024-001",
+    "date": "2024-12-15",
+    "status": "배송완료",
+    "items": [
+      {
+        "productId": 1,
+        "productName": "스팀 닭가슴살 오리지널",
+        "optionName": "100g x 20팩",
+        "quantity": 1,
+        "price": 23800,
+        "image": "/images/product-1.jpg"
+      },
+      {
+        "productId": 5,
+        "productName": "닭가슴살 소시지 오리지널",
+        "optionName": "70g x 10개입",
+        "quantity": 2,
+        "price": 9900,
+        "image": "/images/product-5.jpg"
+      }
+    ],
+    "totalPrice": 43600
+  },
+  {
+    "id": "ORD-2024-002",
+    "date": "2024-12-18",
+    "status": "배송완료",
+    "items": [
+      {
+        "productId": 9,
+        "productName": "닭가슴살 스테이크 갈릭",
+        "optionName": "130g x 10팩",
+        "quantity": 1,
+        "price": 29800,
+        "image": "/images/product-9.jpg"
+      }
+    ],
+    "totalPrice": 29800
+  },
+  {
+    "id": "ORD-2024-003",
+    "date": "2024-12-22",
+    "status": "배송중",
+    "items": [
+      {
+        "productId": 21,
+        "productName": "닭가슴살 도시락 현미밥 & 불고기맛",
+        "optionName": "250g x 10팩",
+        "quantity": 1,
+        "price": 56800,
+        "image": "/images/product-21.jpg"
+      },
+      {
+        "productId": 17,
+        "productName": "닭가슴살 프로틴바 초코",
+        "optionName": "40g x 12개입",
+        "quantity": 1,
+        "price": 15900,
+        "image": "/images/product-17.jpg"
+      }
+    ],
+    "totalPrice": 72700
+  },
+  {
+    "id": "ORD-2024-004",
+    "date": "2024-12-26",
+    "status": "배송중",
+    "items": [
+      {
+        "productId": 13,
+        "productName": "닭가슴살 볼 매콤",
+        "optionName": "100g x 30팩",
+        "quantity": 1,
+        "price": 32900,
+        "image": "/images/product-13.jpg"
+      },
+      {
+        "productId": 7,
+        "productName": "닭가슴살 소시지 치즈",
+        "optionName": "70g x 20개입",
+        "quantity": 1,
+        "price": 20800,
+        "image": "/images/product-7.jpg"
+      }
+    ],
+    "totalPrice": 53700
+  },
+  {
+    "id": "ORD-2024-005",
+    "date": "2024-12-28",
+    "status": "주문확인",
+    "items": [
+      {
+        "productId": 2,
+        "productName": "훈제 닭가슴살",
+        "optionName": "100g x 30팩",
+        "quantity": 1,
+        "price": 36900,
+        "image": "/images/product-2.jpg"
+      },
+      {
+        "productId": 23,
+        "productName": "닭가슴살 도시락 볶음밥 김치맛",
+        "optionName": "250g x 5팩",
+        "quantity": 1,
+        "price": 27900,
+        "image": "/images/product-23.jpg"
+      },
+      {
+        "productId": 19,
+        "productName": "닭가슴살 육포 오리지널",
+        "optionName": "50g x 10팩",
+        "quantity": 1,
+        "price": 16800,
+        "image": "/images/product-19.jpg"
+      }
+    ],
+    "totalPrice": 81600
+  }
+]

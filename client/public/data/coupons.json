@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "신규가입 할인쿠폰",
+    "discount": 3000,
+    "discountType": "amount",
+    "minOrderAmount": 20000,
+    "expiryDate": "2025-12-31"
+  },
+  {
+    "id": 2,
+    "name": "10% 할인쿠폰",
+    "discount": 10,
+    "discountType": "percent",
+    "minOrderAmount": 30000,
+    "expiryDate": "2025-06-30"
+  },
+  {
+    "id": 3,
+    "name": "무료배송 쿠폰",
+    "discount": 3000,
+    "discountType": "amount",
+    "minOrderAmount": 15000,
+    "expiryDate": "2025-09-30"
+  }
+]

@@ -1,0 +1,8 @@
+[
+  { "id": 1, "name": "닭가슴살", "slug": "breast", "icon": "🍗" },
+  { "id": 2, "name": "소시지", "slug": "sausage", "icon": "🌭" },
+  { "id": 3, "name": "스테이크", "slug": "steak", "icon": "🥩" },
+  { "id": 4, "name": "볼/큐브", "slug": "ball", "icon": "🧆" },
+  { "id": 5, "name": "간식/음료", "slug": "snack", "icon": "🥤" },
+  { "id": 6, "name": "도시락", "slug": "lunchbox", "icon": "🍱" }
+]
