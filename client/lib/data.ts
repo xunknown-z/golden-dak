@@ -1,38 +1,58 @@
-import type { Product, Category, Banner, Review } from '@/types';
+import type { Product, Category, Banner, Review, UserProfile, Order, Coupon } from '@/types';
 
-const BASE_URL = process.env.NODE_ENV === 'production' ? '' : 'http://localhost:3000';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000/api';
 
-async function fetchJson<T>(path: string): Promise<T> {
-  const res = await fetch(`${BASE_URL}/data/${path}`, { cache: 'no-store' });
+async function fetchApi<T>(path: string): Promise<T> {
+  const res = await fetch(`${API_URL}${path}`, { cache: 'no-store' });
   if (!res.ok) throw new Error(`Failed to fetch ${path}`);
   return res.json();
 }
 
 export async function getProducts(): Promise<Product[]> {
-  return fetchJson<Product[]>('products.json');
+  return fetchApi<Product[]>('/products');
 }
 
 export async function getProduct(id: number): Promise<Product | undefined> {
-  const products = await getProducts();
-  return products.find((p) => p.id === id);
+  try {
+    return await fetchApi<Product>(`/products/${id}`);
+  } catch {
+    return undefined;
+  }
 }
 
 export async function getProductsByCategory(category: string): Promise<Product[]> {
-  const products = await getProducts();
-  if (!category || category === 'all') return products;
-  return products.filter((p) => p.category === category);
+  if (!category || category === 'all') return getProducts();
+  return fetchApi<Product[]>(`/products?category=${encodeURIComponent(category)}`);
 }
 
 export async function getCategories(): Promise<Category[]> {
-  return fetchJson<Category[]>('categories.json');
+  return fetchApi<Category[]>('/categories');
 }
 
 export async function getBanners(): Promise<Banner[]> {
-  return fetchJson<Banner[]>('banners.json');
+  return fetchApi<Banner[]>('/banners');
 }
 
 export async function getReviews(productId?: number): Promise<Review[]> {
-  const reviews = await fetchJson<Review[]>('reviews.json');
-  if (productId) return reviews.filter((r) => r.productId === productId);
-  return reviews;
+  const path = productId ? `/reviews?productId=${productId}` : '/reviews';
+  return fetchApi<Review[]>(path);
+}
+
+export async function getUser(): Promise<UserProfile> {
+  return fetchApi<UserProfile>('/users/me');
+}
+
+export async function getOrders(): Promise<Order[]> {
+  return fetchApi<Order[]>('/orders');
+}
+
+export async function getCoupons(): Promise<Coupon[]> {
+  return fetchApi<Coupon[]>('/coupons');
+}
+
+export async function getSearchKeywords(): Promise<{
+  popularKeywords: string[];
+  recommendedKeywords: string[];
+}> {
+  return fetchApi('/search/keywords');
 }

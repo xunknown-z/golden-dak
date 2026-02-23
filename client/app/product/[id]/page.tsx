@@ -7,6 +7,7 @@ import ProductImageSlider from '@/components/detail/ProductImageSlider';
 import ProductInfo from '@/components/detail/ProductInfo';
 import DetailTabs from '@/components/detail/DetailTabs';
 import AddToCartBar from '@/components/detail/AddToCartBar';
+import { getProduct, getReviews } from '@/lib/data';
 
 export default function ProductDetailPage() {
   const params = useParams();
@@ -16,20 +17,10 @@ export default function ProductDetailPage() {
   const [reviews, setReviews] = useState<Review[]>([]);
 
   useEffect(() => {
-    fetch('/data/products.json')
-      .then((res) => res.json())
-      .then((products: Product[]) => {
-        const found = products.find((p) => p.id === id);
-        if (found) {
-          setProduct(found);
-        }
-      });
-
-    fetch('/data/reviews.json')
-      .then((res) => res.json())
-      .then((allReviews: Review[]) => {
-        setReviews(allReviews.filter((r) => r.productId === id));
-      });
+    getProduct(id).then((found) => {
+      if (found) setProduct(found);
+    });
+    getReviews(id).then(setReviews);
   }, [id]);
 
   if (!product) {

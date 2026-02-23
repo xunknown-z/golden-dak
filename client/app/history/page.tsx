@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { XMarkIcon } from '@heroicons/react/24/outline';
 import { formatPrice } from '@/lib/format';
 import type { Product } from '@/types';
+import { getProducts } from '@/lib/data';
 
 const tabs = ['최근 본 상품', '자주 사는 상품', '나의 찜'] as const;
 type Tab = (typeof tabs)[number];
@@ -31,16 +32,14 @@ export default function HistoryPage() {
   const [historyItems, setHistoryItems] = useState<HistoryItem[]>([]);
 
   useEffect(() => {
-    fetch('/data/products.json')
-      .then((res) => res.json())
-      .then((products: Product[]) => {
-        const today = new Date().toISOString().split('T')[0];
-        const items: HistoryItem[] = products.slice(0, 5).map((product) => ({
-          product,
-          date: today,
-        }));
-        setHistoryItems(items);
-      });
+    getProducts().then((products) => {
+      const today = new Date().toISOString().split('T')[0];
+      const items: HistoryItem[] = products.slice(0, 5).map((product) => ({
+        product,
+        date: today,
+      }));
+      setHistoryItems(items);
+    });
   }, []);
 
   const handleDelete = (productId: number) => {

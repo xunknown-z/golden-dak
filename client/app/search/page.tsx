@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { ShoppingCartIcon } from '@heroicons/react/24/outline';
 import { formatPrice } from '@/lib/format';
 import type { Product } from '@/types';
+import { getSearchKeywords, getProducts } from '@/lib/data';
 
 interface SearchData {
   popularKeywords: string[];
@@ -18,15 +19,10 @@ export default function SearchPage() {
   const [popularPage, setPopularPage] = useState(0);
 
   useEffect(() => {
-    fetch('/data/search.json')
-      .then((res) => res.json())
-      .then(setSearchData);
-
-    fetch('/data/products.json')
-      .then((res) => res.json())
-      .then((products: Product[]) => {
-        setRecentProducts(products.slice(0, 3));
-      });
+    getSearchKeywords().then(setSearchData);
+    getProducts().then((products) => {
+      setRecentProducts(products.slice(0, 3));
+    });
   }, []);
 
   const totalPages = searchData

@@ -7,6 +7,7 @@ import OrderHistory from '@/components/mypage/OrderHistory';
 import CouponSection from '@/components/mypage/CouponSection';
 import PointSection from '@/components/mypage/PointSection';
 import MenuList from '@/components/mypage/MenuList';
+import { getUser, getOrders, getCoupons } from '@/lib/data';
 
 const tabs = ['주문내역', '쿠폰', '적립금'] as const;
 type Tab = typeof tabs[number];
@@ -18,15 +19,9 @@ export default function MyPage() {
   const [activeTab, setActiveTab] = useState<Tab>('주문내역');
 
   useEffect(() => {
-    fetch('/data/user.json')
-      .then((res) => res.json())
-      .then(setUser);
-    fetch('/data/orders.json')
-      .then((res) => res.json())
-      .then(setOrders);
-    fetch('/data/coupons.json')
-      .then((res) => res.json())
-      .then(setCoupons);
+    getUser().then(setUser);
+    getOrders().then(setOrders);
+    getCoupons().then(setCoupons);
   }, []);
 
   if (!user) {

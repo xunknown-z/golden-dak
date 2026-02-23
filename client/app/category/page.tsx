@@ -6,6 +6,7 @@ import ProductList from '@/components/product/ProductList';
 import CategoryTabs from '@/components/product/CategoryTabs';
 import SortFilter from '@/components/product/SortFilter';
 import { useSearchParams } from 'next/navigation';
+import { getProducts, getCategories } from '@/lib/data';
 
 const categorySlugToName: Record<string, string> = {
   breast: '닭가슴살',
@@ -41,12 +42,8 @@ export default function CategoryPage() {
   const [currentSort, setCurrentSort] = useState('popular');
 
   useEffect(() => {
-    fetch('/data/products.json')
-      .then((res) => res.json())
-      .then(setProducts);
-    fetch('/data/categories.json')
-      .then((res) => res.json())
-      .then(setCategories);
+    getProducts().then(setProducts);
+    getCategories().then(setCategories);
   }, []);
 
   const filteredProducts = useMemo(() => {
